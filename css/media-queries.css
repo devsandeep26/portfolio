@@ -1,0 +1,122 @@
+ /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .header h1 {
+      font-size:2.5rem;
+    }
+    .header p {
+      font-size:2rem;
+    }
+    .flex-about-right h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+    .flex-about-right p {
+      font-size: 1.2rem;
+    }
+    .flex-items {
+      flex : 1 1 40%;
+    }
+    .proj-desc p {
+      font-size:1.2rem;
+    }
+    
+  }
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .header h1 {
+        font-size:1.5rem;
+    }
+    .header p {
+      font-size: 1.2rem;
+    }
+    .btn:link,
+    .btn:visited {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .flex-about-right h1 {
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+    .flex-about-right p {
+      font-size: 1.2rem;
+    }
+    .flex-items {
+      flex: 1 1 100%;
+    }
+    .proj-desc p {
+      font-size:1.2rem;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    /*******************************
+    * home section responsive rules 
+    ********************************/
+  .header h1 {
+        font-size: 1.3rem;
+    }
+    .header p {
+      font-size:1rem;
+    }
+   .btn:link,
+   .btn:visited {
+      font-size: 1rem;
+      padding: 5px;
+    }
+    /*******************************
+    * about section responsive rules 
+    ********************************/
+    .content {
+        padding: 60px 0px 25px 0px;
+    }
+    .flex-about-left , .flex-about-right {
+      flex:1 1 100%;
+      padding:10px;
+    }
+    .flex-about-right h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+    .flex-about-right p {
+      font-size: 1.3rem;
+    }
+    .flex-items {
+      flex: 1 1 100%;
+    }
+    /*******************************
+    * projects section responsive rules 
+    ********************************/
+    .flex-proj {
+      flex-basis: 100%;
+    }
+    .proj-desc p {
+      font-size:1.2rem;
+    }
+    .fa-res {
+      font-size: 5.5rem;
+    }
+    /*******************************
+    * contact section responsive rules 
+    ********************************/
+    #contact-left p {
+      font-size:1rem;
+    }
+  }
